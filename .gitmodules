@@ -1,3 +1,6 @@
 [submodule "teleported.in/themes/PaperMod"]
 	path = teleported.in/themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "teleported.in_hugo/themes/PaperMod"]
+	path = teleported.in_hugo/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
