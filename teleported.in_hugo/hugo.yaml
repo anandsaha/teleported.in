@@ -1,4 +1,15 @@
 baseURL: https://teleported.in/
 theme: ["PaperMod"]
 languageCode: en-us
-title: My New Hugo Site
+title: Teleported.in
+copyright: "© 2025 Anand Saha."
+
+permalinks:
+    posts: "/blog/:year/:month/:title/"
+    notes: "/quick-notes/:slug/"
+
+taxonomies:
+    tag: "tags"
+    category: "categories"
+    series: "series"
+    author: "authors"

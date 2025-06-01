@@ -2,16 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://teleported.in/posts/my-first-post/</loc>
-    <lastmod>2025-05-31T16:11:31-07:00</lastmod>
-  </url><url>
-    <loc>https://teleported.in/</loc>
+    <loc>https://teleported.in/blog/2025/05/my-first-post/</loc>
     <lastmod>2025-05-31T16:11:31-07:00</lastmod>
   </url><url>
     <loc>https://teleported.in/posts/</loc>
     <lastmod>2025-05-31T16:11:31-07:00</lastmod>
   </url><url>
+    <loc>https://teleported.in/</loc>
+    <lastmod>2025-05-31T16:11:31-07:00</lastmod>
+  </url><url>
+    <loc>https://teleported.in/authors/</loc>
+  </url><url>
     <loc>https://teleported.in/categories/</loc>
+  </url><url>
+    <loc>https://teleported.in/series/</loc>
   </url><url>
     <loc>https://teleported.in/tags/</loc>
   </url>
