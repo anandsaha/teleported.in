@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Inception on Teleported.in</title>
+    <link>https://teleported.in/tags/inception/</link>
+    <description>Recent content in Inception on Teleported.in</description>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en-us</language>
+    <copyright>2025 Anand Saha.</copyright>
+    <lastBuildDate>Fri, 20 Oct 2017 23:27:27 -0400</lastBuildDate>
+    <atom:link href="https://teleported.in/tags/inception/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network In Network architecture: The beginning of Inception</title>
+      <link>https://teleported.in/blog/2017/10/network-in-network-architecture-the-beginning-of-inception/</link>
+      <pubDate>Fri, 20 Oct 2017 23:27:27 -0400</pubDate>
+      <guid>https://teleported.in/blog/2017/10/network-in-network-architecture-the-beginning-of-inception/</guid>
+      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;In this post, I explain the &lt;a href=&#34;https://arxiv.org/abs/1312.4400&#34;&gt;&lt;code&gt;Network In Network&lt;/code&gt;&lt;/a&gt;  paper by Min Lin, Qiang Chen, Shuicheng Yan (2013). This paper was quite influential in that it had a new take on convolutional filter design, which inspired the Inception line of deep architectures from Google.&lt;/p&gt;
+&lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;
+&lt;p&gt;Anyone getting introduced to convolutional networks first come across this familiar arrangement of neurons designed by Yann LeCun decades ago:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;LeNet&#34; loading=&#34;lazy&#34; src=&#34;https://teleported.in/post_images/000-LeNet.png&#34;&gt;
+&lt;em&gt;Fig. &lt;a href=&#34;http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf&#34;&gt;LeNet-5&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Yann LeCun&amp;rsquo;s work (&lt;a href=&#34;http://yann.lecun.com/exdb/publis/pdf/lecun-89e.pdf&#34;&gt;1989&lt;/a&gt;, &lt;a href=&#34;http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf&#34;&gt;1998&lt;/a&gt;) triggered the convolutional approach, which takes into account the inherent structure of the incoming data (mostly image data) while propagating them through the network and learning about them.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

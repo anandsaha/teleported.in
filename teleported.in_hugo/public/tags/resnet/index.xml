@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Resnet on Teleported.in</title>
+    <link>https://teleported.in/tags/resnet/</link>
+    <description>Recent content in Resnet on Teleported.in</description>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en-us</language>
+    <copyright>2025 Anand Saha.</copyright>
+    <lastBuildDate>Thu, 02 Nov 2017 23:27:27 -0400</lastBuildDate>
+    <atom:link href="https://teleported.in/tags/resnet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decoding the ResNet architecture</title>
+      <link>https://teleported.in/blog/2017/11/decoding-the-resnet-architecture/</link>
+      <pubDate>Thu, 02 Nov 2017 23:27:27 -0400</pubDate>
+      <guid>https://teleported.in/blog/2017/11/decoding-the-resnet-architecture/</guid>
+      <description>In this post, we try to understand the ResNet architecture</description>
+    </item>
+  </channel>
+</rss>

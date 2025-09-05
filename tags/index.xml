@@ -7,6 +7,35 @@
     <generator>Hugo -- 0.149.1</generator>
     <language>en-us</language>
     <copyright>2025 Anand Saha.</copyright>
+    <lastBuildDate>Thu, 02 Nov 2017 23:27:27 -0400</lastBuildDate>
     <atom:link href="https://teleported.in/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecture</title>
+      <link>https://teleported.in/tags/architecture/</link>
+      <pubDate>Thu, 02 Nov 2017 23:27:27 -0400</pubDate>
+      <guid>https://teleported.in/tags/architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep Learning</title>
+      <link>https://teleported.in/tags/deep-learning/</link>
+      <pubDate>Thu, 02 Nov 2017 23:27:27 -0400</pubDate>
+      <guid>https://teleported.in/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resnet</title>
+      <link>https://teleported.in/tags/resnet/</link>
+      <pubDate>Thu, 02 Nov 2017 23:27:27 -0400</pubDate>
+      <guid>https://teleported.in/tags/resnet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inception</title>
+      <link>https://teleported.in/tags/inception/</link>
+      <pubDate>Fri, 20 Oct 2017 23:27:27 -0400</pubDate>
+      <guid>https://teleported.in/tags/inception/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

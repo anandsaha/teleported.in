@@ -20,18 +20,24 @@
 &lt;p&gt;My X handle is &lt;a href=&#34;https://x.com/anandsaha&#34;&gt;@anandsaha&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>My Second Post</title>
-      <link>https://teleported.in/blog/2025/09/my-second-post/</link>
-      <pubDate>Thu, 04 Sep 2025 22:51:26 -0700</pubDate>
-      <guid>https://teleported.in/blog/2025/09/my-second-post/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non eros nec turpis iaculis rutrum at sed ante. Aliquam at semper leo, ac euismod lectus. Aenean in fermentum nisl. Nam condimentum hendrerit metus vel posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean sollicitudin in tortor efficitur bibendum. Quisque id vulputate felis. Donec maximus sit amet dui sed interdum. Suspendisse suscipit sem id vestibulum lacinia. Duis sapien ante, facilisis vel pellentesque ac, fermentum ut lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam nec purus commodo, eleifend tortor sit amet, rutrum libero.&lt;/p&gt;</description>
+      <title>Decoding the ResNet architecture</title>
+      <link>https://teleported.in/blog/2017/11/decoding-the-resnet-architecture/</link>
+      <pubDate>Thu, 02 Nov 2017 23:27:27 -0400</pubDate>
+      <guid>https://teleported.in/blog/2017/11/decoding-the-resnet-architecture/</guid>
+      <description>In this post, we try to understand the ResNet architecture</description>
     </item>
     <item>
-      <title>My First Post</title>
-      <link>https://teleported.in/blog/2025/05/my-first-post/</link>
-      <pubDate>Sat, 31 May 2025 16:11:31 -0700</pubDate>
-      <guid>https://teleported.in/blog/2025/05/my-first-post/</guid>
-      <description>&lt;p&gt;This is my first post.&lt;/p&gt;</description>
+      <title>Network In Network architecture: The beginning of Inception</title>
+      <link>https://teleported.in/blog/2017/10/network-in-network-architecture-the-beginning-of-inception/</link>
+      <pubDate>Fri, 20 Oct 2017 23:27:27 -0400</pubDate>
+      <guid>https://teleported.in/blog/2017/10/network-in-network-architecture-the-beginning-of-inception/</guid>
+      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;In this post, I explain the &lt;a href=&#34;https://arxiv.org/abs/1312.4400&#34;&gt;&lt;code&gt;Network In Network&lt;/code&gt;&lt;/a&gt;  paper by Min Lin, Qiang Chen, Shuicheng Yan (2013). This paper was quite influential in that it had a new take on convolutional filter design, which inspired the Inception line of deep architectures from Google.&lt;/p&gt;
+&lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;
+&lt;p&gt;Anyone getting introduced to convolutional networks first come across this familiar arrangement of neurons designed by Yann LeCun decades ago:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;LeNet&#34; loading=&#34;lazy&#34; src=&#34;https://teleported.in/post_images/000-LeNet.png&#34;&gt;
+&lt;em&gt;Fig. &lt;a href=&#34;http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf&#34;&gt;LeNet-5&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Yann LeCun&amp;rsquo;s work (&lt;a href=&#34;http://yann.lecun.com/exdb/publis/pdf/lecun-89e.pdf&#34;&gt;1989&lt;/a&gt;, &lt;a href=&#34;http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf&#34;&gt;1998&lt;/a&gt;) triggered the convolutional approach, which takes into account the inherent structure of the incoming data (mostly image data) while propagating them through the network and learning about them.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
