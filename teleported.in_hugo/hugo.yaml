@@ -25,8 +25,8 @@ params:
   author: Anand Saha
   # images: ["/static/favicon.ico"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
+  defaultTheme: light # dark, light, auto
+  disableThemeToggle: true
 
   ShowReadingTime: false
   ShowShareButtons: true
