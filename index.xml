@@ -7,8 +7,24 @@
     <generator>Hugo -- 0.149.1</generator>
     <language>en-us</language>
     <copyright>2025 Anand Saha.</copyright>
-    <lastBuildDate>Sat, 31 May 2025 16:11:31 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 04 Sep 2025 22:52:35 -0700</lastBuildDate>
     <atom:link href="https://teleported.in/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://teleported.in/about/</link>
+      <pubDate>Thu, 04 Sep 2025 22:52:35 -0700</pubDate>
+      <guid>https://teleported.in/about/</guid>
+      <description>&lt;p&gt;Hi, I’m Anand 👋&lt;/p&gt;
+&lt;p&gt;These are my notes on topics related to &lt;strong&gt;machine learning&lt;/strong&gt;, &lt;strong&gt;large &amp;amp; small language models&lt;/strong&gt; and &lt;strong&gt;efficient ML&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Here is my &lt;a href=&#34;https://www.linkedin.com/in/anandsaha/&#34;&gt;LinkedIn profile&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Second Post</title>
+      <link>https://teleported.in/blog/2025/09/my-second-post/</link>
+      <pubDate>Thu, 04 Sep 2025 22:51:26 -0700</pubDate>
+      <guid>https://teleported.in/blog/2025/09/my-second-post/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non eros nec turpis iaculis rutrum at sed ante. Aliquam at semper leo, ac euismod lectus. Aenean in fermentum nisl. Nam condimentum hendrerit metus vel posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean sollicitudin in tortor efficitur bibendum. Quisque id vulputate felis. Donec maximus sit amet dui sed interdum. Suspendisse suscipit sem id vestibulum lacinia. Duis sapien ante, facilisis vel pellentesque ac, fermentum ut lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam nec purus commodo, eleifend tortor sit amet, rutrum libero.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My First Post</title>
       <link>https://teleported.in/blog/2025/05/my-first-post/</link>

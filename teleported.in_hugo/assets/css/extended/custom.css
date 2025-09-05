@@ -1,0 +1,44 @@
+/* Reduce the gap above “Hi there” */
+body.list .first-entry.home-info {
+    margin-top: -100px !important;
+    padding-top: 0 !important;
+}
+
+/* Reduce gap between social-icons (X logo) and the next post entry */
+body.list .first-entry.home-info {
+    margin-bottom: 0rem !important;
+    /* default is larger (2–3rem); tune as you like */
+}
+
+body.list .post-entry {
+    margin-top: 0rem !important;
+    /* tighten from default 2rem */
+}
+
+
+
+/* Keep the site header above any hero/cover on the home page */
+header.header {
+    position: relative;
+    z-index: 1001;
+}
+
+/* Ensure the actual links sit on top */
+header.header a {
+    position: relative;
+    z-index: 1002;
+}
+
+/* If a hero/cover overlaps the header area, let clicks pass through */
+.home-cover,
+.profile-wrapper,
+.list .top {
+    pointer-events: none;
+}
+
+/* But still allow clicks on real links inside those sections if any */
+.home-cover a,
+.profile-wrapper a,
+.list .top a {
+    pointer-events: auto;
+}
