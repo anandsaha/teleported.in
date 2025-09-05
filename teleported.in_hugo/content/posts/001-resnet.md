@@ -27,7 +27,7 @@ With this guidance, you should be adding more nodes to your layers and more laye
 In fact, that has been happening with ImageNet winning models since 2012. A starking trend has been to make the layers deeper, with VGG taking it to 19, and GoogLeNet taking it to 22 layers in 2014. (Note that making layers wider by adding more nodes is not preferred since it has been seen to overfit.)
 
 ![Depth of ImageNet winning models](/post_images/001-revolution-of-depth.png)
-<center>_Fig:Trend of increasing depth (Img Credit: [Kaiming He](http://kaiminghe.com/))_</center>
+_Fig:Trend of increasing depth (Img Credit: [Kaiming He](http://kaiminghe.com/))_
 
 
 However in practice when the depth is pushed to extremes, we see some anomalies:
@@ -52,7 +52,7 @@ There are a couple of intuitions that we should understand before getting into t
 Given a shallower network - how can we take it, add extra layers and make it deeper - without losing accuracy or increasing error? It's tricky to do but one insight is that if the _extra_ layers added to the deeper network are identity mappings, they become equivalent to the shallower network. And hence, they should produce no higher training error than it's shallower counterpart. This is called a _solution by construction_ by the authors.
 
 ![Shallow and Deep Networks](/post_images/001-shallow-deep.png)
-<center>_Fig: A Shallow network (left) and a deeper network (right) constructed by taking the layers of the shallow network and adding identity layers between them. Img Credit: [Kaiming He](http://kaiminghe.com/)._</center>
+_Fig: A Shallow network (left) and a deeper network (right) constructed by taking the layers of the shallow network and adding identity layers between them. Img Credit: [Kaiming He](http://kaiminghe.com/)._
 
 
 **Understanding residual**
@@ -86,18 +86,18 @@ That's what the Residual Network does. This is realized by feedforward neural ne
 `Shortcut connections are those skipping one or more layers. In our case, the shortcut connections simply perform identity mapping, and their outputs are added to the outputs of the stacked layers. Identity shortcut connections add neither extra parameter nor computational complexity. The entire network can still be trained end-to-end by SGD with backpropagation, and can be easily implemented using common libraries without modifying the solvers.`
 
 ![ResNet](/post_images/001-residual-net.png)
-<center>Fig.: The reusable residual network. (Img credit: https://arxiv.org/abs/1512.03385)</center>
+Fig.: The reusable residual network. (Img credit: https://arxiv.org/abs/1512.03385)
 
 The network can be mathematically depicted as:
 
-<center>`H(x) = F(x) + x`, where `F(x) = W2*relu(W1*x+b1)+b2`</center>
+`H(x) = F(x) + x`, where `F(x) = W2*relu(W1*x+b1)+b2`
 
 During training period, the residual network learns the weights of its layers such that if the identity mapping were optimal, all the weights get set to 0. In effect `F(x)` become 0, as in `x` gets directly mapped to `H(x)` and no corrections need to be made. Hence these become your identity mappings which help grow the network deep. And if there is a deviation from optimal identity mapping, weights and biases of `F(x)` are learned to adjust for it. Think of `F(x)` as learning how to adjust our predictions to match the actuals.
 
 These networks are stacked together to arrive at a deep network architecture. For e.g., bellow is a ResNet arch with 34 layers.
 
 ![34 layer resnet](/post_images/001-resnet-vgg.png)
-<center>Fig.: A 34 layer ResNet with VGG 19 side by side (Img credit: https://arxiv.org/abs/1512.03385)</center>
+Fig.: A 34 layer ResNet with VGG 19 side by side (Img credit: https://arxiv.org/abs/1512.03385)
 
 Similarly, researchers have stacked more layers as mentioned earlier, to increase the representational space which helped in gaining accuracy.
 
