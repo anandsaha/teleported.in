@@ -1,5 +1,6 @@
 baseURL: https://teleported.in/
 theme: ["PaperMod"]
+favicon: "/assets/images/favicon.ico"
 languageCode: en-us
 title: Teleported.in
 copyright: "© 2025 Anand Saha."
