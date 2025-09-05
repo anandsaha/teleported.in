@@ -1,9 +1,113 @@
 baseURL: https://teleported.in/
 theme: ["PaperMod"]
-favicon: "/assets/images/favicon.ico"
 languageCode: en-us
 title: Teleported.in
 copyright: "© 2025 Anand Saha."
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+pagination:
+    pagerSize: 10
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Teleported.in
+  description: "Teleported.in description"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Anand Saha
+  # images: ["/static/favicon.ico"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/static/favicon.ico"
+    favicon16x16: "/static/favicon-16x16.png"
+    favicon32x32: "/static/favicon-32x32.png"
+
+  label:
+    text: "Teleported.in"
+    icon: "/static/teleported-v2.png"
+    iconHeight: 60
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: I am Anand Saha. These are my notes on machine learning.
+
+  socialIcons:
+    - name: x
+      url: "https://x.com/anandsaha"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
 
 permalinks:
     posts: "/blog/:year/:month/:title/"
