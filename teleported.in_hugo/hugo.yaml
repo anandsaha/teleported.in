@@ -77,7 +77,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Welcome to teleported.in"
-    Content: A blog about  &lt;placeholder for now&gt;
+    Content: A blog about Machine Learning systems.
 
   analytics:
     google:
