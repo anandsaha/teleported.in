@@ -71,12 +71,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "🔭 Welcome to teleported.in"
-    Content: Anand Saha's Blog.
-
-  socialIcons:
-    - name: x
-      url: "https://x.com/anandsaha"
+    Title: "Welcome to teleported.in"
+    Content: A blog about  &lt;placeholder for now&gt;
 
   analytics:
     google:
@@ -104,14 +100,14 @@ menu:
       name: "about"
       url: "/about/"
       weight: 5
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
+#    - identifier: categories
+#      name: categories
+#      url: /categories/
+#      weight: 10
+#    - identifier: tags
+#      name: tags
+#      url: /tags/
+#      weight: 20
 
 permalinks:
     posts: "/blog/:year/:month/:title/"

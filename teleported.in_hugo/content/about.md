@@ -8,3 +8,5 @@ Hi, I’m Anand 👋
 These are my notes on topics related to **machine learning**, **large & small language models** and **efficient ML**.
 
 Here is my [LinkedIn profile](https://www.linkedin.com/in/anandsaha/).
+
+My X handle is [@anandsaha](https://x.com/anandsaha).

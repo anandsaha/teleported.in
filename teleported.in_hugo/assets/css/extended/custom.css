@@ -6,7 +6,7 @@ body.list .first-entry.home-info {
 
 /* Reduce gap between social-icons (X logo) and the next post entry */
 body.list .first-entry.home-info {
-    margin-bottom: 0rem !important;
+    margin-bottom: -5rem !important;
     /* default is larger (2–3rem); tune as you like */
 }
 
