@@ -6,6 +6,7 @@ tags        = [ "deep learning", "architecture", "inception"]
 categories  = [ "deep learning" ]
 slug        = "network-in-network"
 featuredImage="/post_images/000-Network_In_Network_img2.png"
+featuredImagePreview="/post_images/000-Network_In_Network_img2.png"
 draft       = false
 +++
 

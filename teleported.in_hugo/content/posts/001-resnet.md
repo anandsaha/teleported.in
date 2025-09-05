@@ -1,11 +1,12 @@
 +++
 date        = "2017-11-02T23:27:27-04:00"
 title       = "Decoding the ResNet architecture"
-description = "In this post, we try to understand the ResNet architecture"
+description = ""
 tags        = [ "deep learning", "architecture", "resnet"]
 categories  = [ "deep learning" ]
 slug        = "decoding-resnet-architecture"
 featuredImage="/post_images/001-resnet2.png"
+featuredImagePreview="/post_images/001-resnet2.png"
 +++
 
 ### Introduction

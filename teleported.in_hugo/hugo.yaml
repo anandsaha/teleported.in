@@ -44,6 +44,9 @@ params:
   showtoc: false
   tocopen: false
 
+  ShowFeaturedImageInList: true
+  ShowFeaturedImageInSingle: true
+
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true

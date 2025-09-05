@@ -14,7 +14,9 @@
       <link>https://teleported.in/blog/2017/11/decoding-the-resnet-architecture/</link>
       <pubDate>Thu, 02 Nov 2017 23:27:27 -0400</pubDate>
       <guid>https://teleported.in/blog/2017/11/decoding-the-resnet-architecture/</guid>
-      <description>In this post, we try to understand the ResNet architecture</description>
+      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.fast.ai&#34;&gt;Fast.ai&amp;rsquo;s&lt;/a&gt; 2017 batch kicked off on 30th Oct and &lt;a href=&#34;https://twitter.com/jeremyphoward&#34;&gt;Jeremy Howard&lt;/a&gt; introduced us participants to the ResNet model in the first lecture itself. I had used this model earlier in the passing but got curious to dig into its architecture this time. &lt;em&gt;(In fact in one of my &lt;a href=&#34;https://www.suasnews.com/2017/10/flytbase-releases-ai-platform-drones/&#34;&gt;earlier client projects&lt;/a&gt; I had used Faster RCNN, which uses a ResNet variant under the hood.)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;ResNet was unleashed in 2015 by Kaiming He. et.al. through their paper &lt;a href=&#34;https://arxiv.org/abs/1512.03385&#34;&gt;Deep Residual Learning for Image Recognition&lt;/a&gt; and bagged all the &lt;a href=&#34;http://www.image-net.org/&#34;&gt;ImageNet challenges&lt;/a&gt; including classification, detection, and localization.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
