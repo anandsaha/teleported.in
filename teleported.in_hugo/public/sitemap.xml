@@ -2,16 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://teleported.in/categories/</loc>
+    <lastmod>2025-12-20T23:27:27-04:00</lastmod>
+  </url><url>
+    <loc>https://teleported.in/blog/2025/12/landmark-llm-papers/</loc>
+    <lastmod>2025-12-20T23:27:27-04:00</lastmod>
+  </url><url>
+    <loc>https://teleported.in/tags/llm/</loc>
+    <lastmod>2025-12-20T23:27:27-04:00</lastmod>
+  </url><url>
+    <loc>https://teleported.in/categories/papers/</loc>
+    <lastmod>2025-12-20T23:27:27-04:00</lastmod>
+  </url><url>
+    <loc>https://teleported.in/tags/papers/</loc>
+    <lastmod>2025-12-20T23:27:27-04:00</lastmod>
+  </url><url>
+    <loc>https://teleported.in/posts/</loc>
+    <lastmod>2025-12-20T23:27:27-04:00</lastmod>
+  </url><url>
+    <loc>https://teleported.in/tags/</loc>
+    <lastmod>2025-12-20T23:27:27-04:00</lastmod>
+  </url><url>
+    <loc>https://teleported.in/</loc>
+    <lastmod>2025-12-20T23:27:27-04:00</lastmod>
+  </url><url>
     <loc>https://teleported.in/about/</loc>
     <lastmod>2025-09-04T22:52:35-07:00</lastmod>
   </url><url>
-    <loc>https://teleported.in/</loc>
-    <lastmod>2025-09-04T22:52:35-07:00</lastmod>
-  </url><url>
     <loc>https://teleported.in/tags/architecture/</loc>
-    <lastmod>2017-11-02T23:27:27-04:00</lastmod>
-  </url><url>
-    <loc>https://teleported.in/categories/</loc>
     <lastmod>2017-11-02T23:27:27-04:00</lastmod>
   </url><url>
     <loc>https://teleported.in/blog/2017/11/decoding-the-resnet-architecture/</loc>
@@ -23,13 +41,7 @@
     <loc>https://teleported.in/tags/deep-learning/</loc>
     <lastmod>2017-11-02T23:27:27-04:00</lastmod>
   </url><url>
-    <loc>https://teleported.in/posts/</loc>
-    <lastmod>2017-11-02T23:27:27-04:00</lastmod>
-  </url><url>
     <loc>https://teleported.in/tags/resnet/</loc>
-    <lastmod>2017-11-02T23:27:27-04:00</lastmod>
-  </url><url>
-    <loc>https://teleported.in/tags/</loc>
     <lastmod>2017-11-02T23:27:27-04:00</lastmod>
   </url><url>
     <loc>https://teleported.in/tags/inception/</loc>

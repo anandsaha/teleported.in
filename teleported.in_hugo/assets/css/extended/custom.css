@@ -42,3 +42,26 @@ header.header a {
 .list .top a {
     pointer-events: auto;
 }
+
+/* ============================================
+   HYPERLINK COLOR CUSTOMIZATION
+   ============================================
+   Change the color values below to your preferred color.
+   You can use:
+   - Hex colors: #0066cc
+   - RGB colors: rgb(0, 102, 204)
+   - RGBA colors: rgba(0, 102, 204, 0.8)
+   - Named colors: blue, red, etc.
+   ============================================ */
+
+/* Main post content links (most common) */
+.post-content a {
+    color: #904a00;
+    /* Change this to your preferred color */
+}
+
+/* Post content links on hover */
+.post-content a:hover {
+    color: #713301;
+    /* Darker shade for hover (optional) */
+}

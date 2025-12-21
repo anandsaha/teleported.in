@@ -4,11 +4,18 @@
     <title>Categories on Teleported.in</title>
     <link>https://teleported.in/categories/</link>
     <description>Recent content in Categories on Teleported.in</description>
-    <generator>Hugo -- 0.149.1</generator>
+    <generator>Hugo -- 0.151.0</generator>
     <language>en-us</language>
     <copyright>2025 Anand Saha.</copyright>
-    <lastBuildDate>Thu, 02 Nov 2017 23:27:27 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 20 Dec 2025 23:27:27 -0400</lastBuildDate>
     <atom:link href="https://teleported.in/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Papers</title>
+      <link>https://teleported.in/categories/papers/</link>
+      <pubDate>Sat, 20 Dec 2025 23:27:27 -0400</pubDate>
+      <guid>https://teleported.in/categories/papers/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Deep Learning</title>
       <link>https://teleported.in/categories/deep-learning/</link>

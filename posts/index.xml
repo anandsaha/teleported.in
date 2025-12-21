@@ -4,11 +4,84 @@
     <title>Posts on Teleported.in</title>
     <link>https://teleported.in/posts/</link>
     <description>Recent content in Posts on Teleported.in</description>
-    <generator>Hugo -- 0.149.1</generator>
+    <generator>Hugo -- 0.151.0</generator>
     <language>en-us</language>
     <copyright>2025 Anand Saha.</copyright>
-    <lastBuildDate>Thu, 02 Nov 2017 23:27:27 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 20 Dec 2025 23:27:27 -0400</lastBuildDate>
     <atom:link href="https://teleported.in/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Landmark LLM Papers</title>
+      <link>https://teleported.in/blog/2025/12/landmark-llm-papers/</link>
+      <pubDate>Sat, 20 Dec 2025 23:27:27 -0400</pubDate>
+      <guid>https://teleported.in/blog/2025/12/landmark-llm-papers/</guid>
+      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;A list of curated landmark papers in the field of LLMs.&lt;/p&gt;
+&lt;h3 id=&#34;foundational&#34;&gt;Foundational&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1301.3781&#34;&gt;Efficient Estimation of Word Representations in Vector Space (Word2Vec) (2013)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nlp.stanford.edu/pubs/glove.pdf&#34;&gt;GloVe: Global Vectors for Word Representation (2014)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1409.0473&#34;&gt;Neural Machine Translation by Jointly Learning to Align and Translate (2014)&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduced the concept of attention&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;transformer&#34;&gt;Transformer&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1706.03762&#34;&gt;Attention Is All You Need (2017)&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduced the Transformer architecture&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1803.02155&#34;&gt;Self-Attention with Relative Position Representations (2018)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1810.04805&#34;&gt;BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (2018)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2104.09813&#34;&gt;Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation (2021)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2104.09864&#34;&gt;RoFormer: Enhanced Transformer with Rotary Position Embedding (2021)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;large-language-models&#34;&gt;Large Language Models&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1801.06146&#34;&gt;Universal Language Model Fine-tuning for Text Classification (ULMFiT)(2018)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf&#34;&gt;Improving Language Understanding by Generative Pre-Training (GPT-1)(2018)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf&#34;&gt;Language Models are Unsupervised Multitask Learners (GPT-2)(2019)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2005.14165&#34;&gt;Language Models are Few-Shot Learners (GPT-3) (2020)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2101.03961&#34;&gt;What Can Transformers Learn In-Context? A Case Study of Simple Function Classes (2021)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2303.08774&#34;&gt;GPT-4 Technical Report (2023)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;alignment&#34;&gt;Alignment&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1706.03741&#34;&gt;Deep reinforcement learning from human preferences (2017)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2203.02155&#34;&gt;Training language models to follow instructions with human feedback (2022)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2203.02155&#34;&gt;Constitutional AI: Harmlessness from AI Feedback (2022)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;scaling-laws-emergence&#34;&gt;Scaling Laws, Emergence&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2001.08361&#34;&gt;Scaling Laws for Neural Language Models (2020)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2203.05556&#34;&gt;Training Compute-Optimal Large Language Models (2022)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2206.07682&#34;&gt;Emergent Abilities of Large Language Models (2022)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;prompt--context-engineering&#34;&gt;Prompt / Context Engineering&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2109.08203&#34;&gt;Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (2021)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;efficient-transformers&#34;&gt;Efficient Transformers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1901.02860&#34;&gt;Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context (2019)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1904.00969&#34;&gt;Reformer: The Efficient Transformer (2019)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2004.05150&#34;&gt;Longformer: The Long-Document Transformer (2020)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2004.05718&#34;&gt;Generating Long Sequences with Sparse Transformers (2020)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2007.04509&#34;&gt;Big Bird: Transformers for Longer Sequences (2020)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2205.14135&#34;&gt;FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (2022)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;survey-papers&#34;&gt;Survey Papers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2106.04554&#34;&gt;A Survey of Transformers (2022)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2009.06732&#34;&gt;Efficient Transformers: A Survey (2020)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2303.18223&#34;&gt;A Survey of Large Language Models (2023)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2108.07258&#34;&gt;On the Opportunities and Risks of Foundation Models (2022)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2107.13586&#34;&gt;Pre-train, Prompt, and Predict: A Survey of Prompting Methods in NLP (2021)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2508.09834&#34;&gt;Speed Always Wins: A Survey on Efficient Architectures for Large Language Models (2025)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Decoding the ResNet architecture</title>
       <link>https://teleported.in/blog/2017/11/decoding-the-resnet-architecture/</link>
